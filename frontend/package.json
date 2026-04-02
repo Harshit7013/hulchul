@@ -1,5 +1,5 @@
 {
-  "name": "desiscope-frontend",
+  "name": "hulchul-frontend",
   "private": true,
   "scripts": {
     "dev": "next dev",

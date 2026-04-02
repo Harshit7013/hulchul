@@ -13,18 +13,18 @@ const NAV_ITEMS = [
 
 export default function Sidebar() {
   const pathname = usePathname();
-  const [loginId, setLoginId] = useState("NEON_ADMIN_X");
+  const [loginId, setLoginId] = useState("HULCHUL_ADMIN_X");
 
   useEffect(() => {
-    const saved = localStorage.getItem('NEON_LOGIN_ID');
+    const saved = localStorage.getItem('HULCHUL_LOGIN_ID');
     if (saved) setLoginId(saved);
   }, []);
 
   return (
     <aside className="h-screen w-64 rounded-r-[3rem] sticky left-0 top-0 bg-[#131313]/80 backdrop-blur-2xl flex flex-col py-8 px-6 shadow-[40px_0_80px_rgba(241,131,255,0.05)] z-50">
       <div className="mb-12">
-        <h1 className="text-xl font-bold bg-gradient-to-r from-[#f183ff] to-[#ec6aff] bg-clip-text text-transparent font-headline">Neon Lab</h1>
-        <p className="text-[10px] uppercase tracking-[0.2em] text-white/40 mt-1">Simulation active</p>
+        <h1 className="text-xl font-black bg-gradient-to-r from-[#f183ff] to-[#ec6aff] bg-clip-text text-transparent font-headline tracking-tighter uppercase italic">Hulchul</h1>
+        <p className="text-[10px] uppercase tracking-[0.2em] text-white/40 mt-1 font-black italic">Simulation active</p>
       </div>
 
       <nav className="flex-1 space-y-2">

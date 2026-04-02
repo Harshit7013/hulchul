@@ -4,8 +4,8 @@ import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
 export const metadata: Metadata = {
-  title: "Neon Lab",
-  description: "DesiScope Neon Simulation Space",
+  title: "Hulchul",
+  description: "Hulchul: Real-time Multi-Agent Simulation Engine",
 };
 
 export default function RootLayout({

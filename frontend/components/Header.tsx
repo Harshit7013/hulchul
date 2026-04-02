@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center w-full max-w-[1440px] mx-auto pt-6 px-8 h-20">
       <div className="flex flex-col">
-        <h2 className="text-2xl font-black tracking-tighter text-white font-headline">Neon Laboratory</h2>
+        <h2 className="text-2xl font-black tracking-tighter text-white font-headline uppercase italic">Hulchul Dashboard</h2>
         <div className="flex items-center gap-2">
           <span className="h-1.5 w-1.5 rounded-full bg-secondary animate-pulse"></span>
           <span className="text-[10px] font-bold text-secondary uppercase tracking-widest">System Operational</span>

@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import random
 import asyncio
 
-app = FastAPI(title="DesiScope Production API")
+app = FastAPI(title="hulchul Production API")
 
 app.add_middleware(
     CORSMiddleware,

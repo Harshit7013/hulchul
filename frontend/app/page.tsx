@@ -15,7 +15,7 @@ export default function LoginPage() {
     
     // Persist Login ID for the session
     if (typeof window !== 'undefined') {
-      localStorage.setItem('NEON_LOGIN_ID', loginId || 'NEON_ADMIN_X');
+      localStorage.setItem('HULCHUL_LOGIN_ID', loginId || 'HULCHUL_ADMIN_X');
     }
 
     // Mock login delay
@@ -40,8 +40,8 @@ export default function LoginPage() {
             <div className="inline-flex h-16 w-16 bg-gradient-to-br from-primary to-primary-container rounded-2xl items-center justify-center mb-4 shadow-lg shadow-primary/20 rotate-3">
               <span className="material-symbols-outlined text-3xl text-on-primary-container font-bold">science</span>
             </div>
-            <h1 className="text-3xl font-black font-headline tracking-tighter text-white">Neon Lab</h1>
-            <p className="text-[10px] uppercase tracking-[0.3em] text-white/40 mt-2">Laboratory Access Portal</p>
+            <h1 className="text-3xl font-black font-headline tracking-tighter text-white uppercase italic">Hulchul</h1>
+            <p className="text-[10px] uppercase tracking-[0.3em] text-white/40 mt-2 italic font-black">Simulation Access Portal</p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-6">
@@ -52,7 +52,7 @@ export default function LoginPage() {
                 <input 
                   required
                   type="text"
-                  placeholder="ID: NEON_XXXX_X"
+                  placeholder="ID: HULCHUL_XXXX_X"
                   value={loginId}
                   onChange={(e) => setLoginId(e.target.value)}
                   className="w-full bg-white/5 border border-white/5 rounded-full py-4 pl-14 pr-6 text-white outline-none focus:bg-white/10 focus:border-primary/30 transition-all placeholder:text-white/10 font-body"

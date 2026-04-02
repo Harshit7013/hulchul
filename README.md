@@ -1,6 +1,6 @@
-# DesiScope 🚀
+# Hulchul 🚀
 
-**DesiScope** is an advanced AI-powered simulation and evaluation engine designed to analyze, score, and visualize large-scale multi-agent interactions across diverse scenarios. Built with a focus on real-time narrative mutation and emotional cascades, DesiScope provides developers and researchers with a powerful dashboard to monitor AI alignment, divergence, and accuracy in complex environments.
+**Hulchul** is an advanced AI-powered simulation and evaluation engine designed to analyze, score, and visualize large-scale multi-agent interactions across diverse scenarios. Built with a focus on real-time narrative mutation and emotional cascades, Hulchul provides developers and researchers with a powerful dashboard to monitor AI alignment, divergence, and accuracy in complex environments.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
@@ -12,7 +12,7 @@
 
 ### 🖥️ Main Dashboard
 *A high-level view of current simulation runs, showing global volatility and agent activity.*
-![Dashboard Placeholder](https://via.placeholder.com/1200x600/0a0a0a/ffffff?text=DesiScope+Dashboard+Preview)
+![Dashboard Placeholder](https://via.placeholder.com/1200x600/0a0a0a/ffffff?text=Hulchul+Dashboard+Preview)
 
 ### 📊 Simulation Analytics
 *Detailed breakdown of emotional cascades and narrative divergence indices.*
@@ -55,7 +55,7 @@
 ## 📂 Project Structure
 
 ```bash
-desiscope/
+hulchul/
 ├── backend/                # FastAPI Application
 │   ├── agents/             # Agent generation and persona logic
 │   ├── core/               # Core simulation and mutation engines
@@ -146,7 +146,7 @@ npm run dev
 
 **Harshit**
 - GitHub: [@Harshit7013](https://github.com/Harshit7013)
-- Project: [DesiScope](https://github.com/Harshit7013/hulchul)
+- Project: [Hulchul](https://github.com/Harshit7013/hulchul)
 
 ---
 
